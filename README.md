@@ -1,6 +1,3 @@
-Author
-==========
-"Decker, Benjamin", deckerbd
 Portfolio
 =========
 
@@ -22,14 +19,14 @@ Body of portfolio
 Possible sources of evidence (do any one of these):
 
 * https://github.com/MiamiOH-CSE274/03_Queue_Lab
-* In-Progress: Use a queue as your data structure in https://github.com/MiamiOH-CSE274/Shuffle - found at https://github.com/deckerbd/Shuffle/tree/deckerbd
+* Use a queue as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
 * Consult with Dr. Brinkman on an alternative project
 
 7 - Create an implementation of a List
 ----
 Possible sources of evidence (do any one of these):
 
-* Completed: https://github.com/MiamiOH-CSE274/04_Linked_List_Lab - found at https://github.com/MiamiOH-CSE274/04_Linked_List_Lab/tree/deckerbd
+* https://github.com/MiamiOH-CSE274/04_Linked_List_Lab
 * Use a linked list as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
 * Implement chaining instead of linear probing in https://github.com/MiamiOH-CSE274/05_Hashing_Lab
 * Consult with Dr. Brinkman on an alternative project
@@ -49,7 +46,7 @@ Possible sources of evidence (do any one of these):
 ----
 Possible sources of evidence (do any one of these):
 
-* In-Progress: https://github.com/MiamiOH-CSE274/05_Hashing_Lab - found at https://github.com/deckerbd/05_Hashing_Lab/tree/deckerbd
+* https://github.com/MiamiOH-CSE274/05_Hashing_Lab
 * Use a hash table in the Zeitgeist project
 * Use locality-preserving hashing on the Starbucks project (not recommended!)
 * Consult with Dr. Brinkman on an alternative project
