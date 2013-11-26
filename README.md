@@ -66,8 +66,7 @@ Possible sources of evidence (do any one of these):
 Possible sources of evidence (do any one of these):
 
 * Graph lab
-* Graph Algorithms lab
-* Graph project
+* Vise project
 * Consult with Dr. Brinkman on an alternative project
 
 7 - Implement graph algorithms
