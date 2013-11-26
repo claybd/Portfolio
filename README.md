@@ -74,9 +74,8 @@ Possible sources of evidence (do any one of these):
 ----
 Possible sources of evidence (do any one of these):
 
-* Graph lab
-* Graph Algorithms lab
-* Graph project
+* Add a graph traversal to your graph lab.
+* Do the Vise project, using a graph traversal to identify the "largest connected component"
 * Consult with Dr. Brinkman on an alternative project
 
 21 - Determine space and time requirements of common data structure methods
