@@ -16,91 +16,65 @@ Body of portfolio
 
 7 - Create an implementation of a Queue
 ----
-Possible sources of evidence (do any one of these):
-
-* https://github.com/MiamiOH-CSE274/03_Queue_Lab
-* Use a queue as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
-* Consult with Dr. Brinkman on an alternative project
+TODO: Provide a link to your completed 03_Queue_Lab
 
 7 - Create an implementation of a List
 ----
-Possible sources of evidence (do any one of these):
-
-* https://github.com/MiamiOH-CSE274/04_Linked_List_Lab
-* Use a linked list as your data structure in https://github.com/MiamiOH-CSE274/Shuffle
-* Implement chaining instead of linear probing in https://github.com/MiamiOH-CSE274/05_Hashing_Lab
-* Consult with Dr. Brinkman on an alternative project
-
+TODO: Provide a link to your completed 04_Linked_List_Lab OR 05_Hashing_Lab (only if you used chaining instead of open addressing)
 
 7 - Create an implementation of a Binary Search Tree
 ----
-Possible sources of evidence (do any one of these):
+TODO: Provide a link to your completed 06_BST_Lab OR ClosestStarbucks project (only if you used a search tree)
 
-* Binary Search Tree Lab (TODO)
-* Use a binary search tree or KD-Tree in the Starbucks project.
-* Use a binary search tree in the Zeitgeist project
-* Consult with Dr. Brinkman on an alternative project
-
-
-7 - Create an implementaiton of a Hash Table
+7 - Create an implementation of a Hash Table
 ----
-Possible sources of evidence (do any one of these):
-
-* https://github.com/MiamiOH-CSE274/05_Hashing_Lab
-* Use a hash table in the Zeitgeist project
-* Use locality-preserving hashing on the Starbucks project (not recommended!)
-* Consult with Dr. Brinkman on an alternative project
+TODO: Provide a link to your completed 05_Hashing_Lab
 
 7 - Create an implementation of a Heap
 ----
-Possible sources of evidence (do any one of these):
+TODO: Provide a link to your completed 07_Heap_Lab OR Vise project (only if you implemented a heap for it)
 
-* Heap lab (TODO)
-* Implement heap sort in the Sorting lab (TODO)
-* Implement a heap as part of the Graph Algorithms lab (TODO)
-* Implement a heap as part of the Graph Project (TODO)
-* Consult with Dr. Brinkman on an alternative project
-
-7 - Create an implementation of either Adjanency Lists or Adjacency Matrices
+7 - Create an implementation of either Adjacency Lists or Adjacency Matrices
 ----
-Possible sources of evidence (do any one of these):
-
-* Graph lab
-* Vise project
-* Consult with Dr. Brinkman on an alternative project
+TODO: Provide a link to your completed 08_Graph_Lab OR Vise project (only if you implemented a graph for it)
 
 7 - Implement graph algorithms
 ----
-Possible sources of evidence (do any one of these):
-
-* Add a graph traversal to your graph lab.
-* Do the Vise project, using a graph traversal to identify the "largest connected component"
-* Consult with Dr. Brinkman on an alternative project
+TODO: Provide a link to your completed Vise project (only if you used graph traversal), or add a graph traversal to 08_Graph_Lab and provide a link
 
 21 - Determine space and time requirements of common data structure methods
 -----
-Possible sources of evidence (do up to 3 of these, up to 7 points for each):
+TODO: For each pair of data structures listed here, write a short essay comparing and contrasting them in terms of their running times for different operations. (7 points each)
 
-* Select any of the following labs, and analyze the running times for each of your methods of your data structure: Queue, Linked List, Binary Search Tree, Heap, Hash Table, Graph (Adjacency List or Adjacency Matrix, you don't have to do both, but you can if you want)
-
+* Array-based list vs. Linked List
+* Binary Search Tree vs. Hash Table
+* Adjacency List vs. Adjacency Matrix
 
 5 - Describe memory management in C++, and correctly use dynamic variables, including destructors
 ----
-Possible sources of evidence (do one):
+TODO: Define/describe each of the following terms, as they apply to memory management in C++
 
-* Select any of your labs or projects that uses dynamic memory, and explain how memory is managed. In particular, you must show that your program does not leak memory, and does not suffer from dangling pointers or out of bounds array access. This will probably require referring to your code, providing links.
+* The call stack (not to be confused with the stack data structure!)
+* The heap (not to be confused with the heap data structure!)
+* Address
+* Pointer
 
+TODO: Answer the following questions about memory management and dynamic variables
+
+* What is a memory leak, and why is it bad?
+* What is a dangling pointer (or dangling reference), and why is it dangerous?
+* What is a destructor, and why are they necessary (in C++) to prevent memory leaks? Why *aren't* they necessary in Java?
 
 5 - Create collection classes using templates in C++
 ----
-Possible sources of evidence (do one):
-
-* Any of the labs or projects, provided it uses templates in an interesting way.
+TODO: Answer the following questions about templates in C++
 
 
-30 - Using time and space analysis, justify the selection of a data structure for a given application
+20 - Using time and space analysis, justify the selection of a data structure for a given application
 ----
+TODO: Answer the following questions about choosing data structures. (5 points each)
 
-Possible sources of evidence (do up to 2 of these, up to 15 points for each):
-
-* Select a project for which there are multiple reasonable data structure designs. Describe two reasonable options, and explain the trade-offs between them. For each, describe an application where the data structure would be better. For example, if comparing KD-Trees to a Grid in the Starbucks problem, which one is better really depends on the input data set. Explain what the data would have to look like for the Grid to be a clear winner, and also what type of data would lead you to use a KD-Tree instead.
+* If I needed a data structure to store a set of strings, which data structure (or data structures) that we learned this semester would be most appropriate? Carefully explain why. (Remember that a set doesn't have any order, and doesn't store duplicates. We can add items, remove items, and check to see if an item is already in the set.)
+* If I needed a data structure to store a grocery list, which data structure (or data structures) that we learned this semester would be most appropriate? Carefully explain why.
+* If I needed a data structure to store student records so that I could look students up by Banner number, which data structure (or data structures) that we learned this semester would be most appropriate? Carefully explain why.
+* Imagine that I'm implementing a network router. It needs to keep a queue of packets waiting to be sent out over the network, but this queue need a special ability: Different companies are going to pay me different amounts of money, and the packets from the highest paying company should be sent out first. That is, if company X paid 20 and company Y paid 10, then X's packets always get sent before Y's packets. Y only gets to send packets if X doesn't have any waiting. Which data structure (or data structures) that we learned this semester would be most appropriate? Carefully explain why.
