@@ -17,29 +17,36 @@ Body of portfolio
 ----
 https://github.com/claybd/03_Queue_Lab
 
+
 7 - Create an implementation of a List
 ----
 https://github.com/claybd/04_Linked_List_Lab
+
 
 7 - Create an implementation of a Binary Search Tree
 ----
 https://github.com/claybd/06_BST_Lab
 
+
 7 - Create an implementation of a Hash Table
 ----
-TODO: Provide a link to your completed 05_Hashing_Lab
+https://github.com/claybd/05_Hashing_Lab
+
 
 7 - Create an implementation of a Heap
 ----
 https://github.com/claybd/07_Heap_Lab
 
+
 7 - Create an implementation of either Adjacency Lists or Adjacency Matrices
 ----
 https://github.com/claybd/08_Graph_Lab
 
+
 7 - Implement graph algorithms
 ----
 TODO: Provide a link to your completed Vise project (only if you used graph traversal), or add a graph traversal to 08_Graph_Lab and provide a link
+
 
 21 - Determine space and time requirements of common data structure methods
 -----
@@ -48,6 +55,7 @@ TODO: For each pair of data structures listed here, write a short essay comparin
 * Array-based list vs. Linked List
 * Binary Search Tree vs. Hash Table
 * Adjacency List vs. Adjacency Matrix
+
 
 5 - Describe memory management in C++, and correctly use dynamic variables, including destructors
 ----
@@ -63,6 +71,7 @@ TODO: Answer the following questions about memory management and dynamic variabl
 * What is a memory leak, and why is it bad?
 * What is a dangling pointer (or dangling reference), and why is it dangerous?
 * What is a destructor, and why are they necessary (in C++) to prevent memory leaks? Why *aren't* they necessary in Java?
+
 
 5 - Create collection classes using templates in C++
 ----
