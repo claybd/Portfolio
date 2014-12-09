@@ -15,15 +15,15 @@ Body of portfolio
 
 7 - Create an implementation of a Queue
 ----
-TODO: Provide a link to your completed 03_Queue_Lab
+https://github.com/claybd/03_Queue_Lab
 
 7 - Create an implementation of a List
 ----
-TODO: Provide a link to your completed 04_Linked_List_Lab OR 05_Hashing_Lab (only if you used chaining instead of open addressing)
+https://github.com/claybd/04_Linked_List_Lab
 
 7 - Create an implementation of a Binary Search Tree
 ----
-TODO: Provide a link to your completed 06_BST_Lab OR ClosestStarbucks project (only if you used a search tree)
+https://github.com/claybd/06_BST_Lab
 
 7 - Create an implementation of a Hash Table
 ----
@@ -31,11 +31,11 @@ TODO: Provide a link to your completed 05_Hashing_Lab
 
 7 - Create an implementation of a Heap
 ----
-TODO: Provide a link to your completed 07_Heap_Lab OR Vise project (only if you implemented a heap for it)
+https://github.com/claybd/07_Heap_Lab
 
 7 - Create an implementation of either Adjacency Lists or Adjacency Matrices
 ----
-TODO: Provide a link to your completed 08_Graph_Lab OR Vise project (only if you implemented a graph for it)
+https://github.com/claybd/08_Graph_Lab
 
 7 - Implement graph algorithms
 ----
