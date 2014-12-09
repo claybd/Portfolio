@@ -19,43 +19,52 @@ https://github.com/claybd/03_Queue_Lab
 
 
 7 - Create an implementation of a List
-----
+--------------------------------------
 https://github.com/claybd/04_Linked_List_Lab
 
 
 7 - Create an implementation of a Binary Search Tree
-----
+----------------------------------------------------
 https://github.com/claybd/06_BST_Lab
 
 
 7 - Create an implementation of a Hash Table
-----
+--------------------------------------------
 https://github.com/claybd/05_Hashing_Lab
 
 
 7 - Create an implementation of a Heap
-----
+--------------------------------------
 https://github.com/claybd/07_Heap_Lab
 
 
 7 - Create an implementation of either Adjacency Lists or Adjacency Matrices
-----
+----------------------------------------------------------------------------
 https://github.com/claybd/08_Graph_Lab
 
 
 7 - Implement graph algorithms
-----
+------------------------------
 TODO: Provide a link to your completed Vise project (only if you used graph traversal), or add a graph traversal to 08_Graph_Lab and provide a link
 
 
-21 - Determine space and time requirements of common data structure methods
------
-TODO: For each pair of data structures listed here, write a short essay comparing and contrasting them in terms of their running times for different operations. (7 points each)
+21 (7 points each) - Determine space and time requirements of common data structure methods
+-------------------------------------------------------------------------------------------
 
 * Array-based list vs. Linked List
-* Binary Search Tree vs. Hash Table
-* Adjacency List vs. Adjacency Matrix
+***********************************
+In an array-based list, adding/removing a single element to/from the list is proportional to the number of elements that we must shift.  If the array must be grown, it will take time proportional to the number of elements in the list to do so.  Getting and setting values at a certain location in the list both take linear time.
 
+In a linked list, adding, removing, and finding a single element at a specific index all take linear time if the index at which the element is to be added or removed is either equal to 0 or one less than the number of items in the list.  However, if the index is not one of the two previously stated values, the running time of these operations is one plus the lesser of the two following values: the index OR (number of items - index).
+
+
+* Binary Search Tree vs. Hash Table
+************************************
+
+
+* Adjacency List vs. Adjacency Matrix
+**************************************
+TODO
 
 5 - Describe memory management in C++, and correctly use dynamic variables, including destructors
 ----
