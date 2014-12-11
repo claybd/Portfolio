@@ -41,9 +41,7 @@ TODO: Provide a link to your completed Vise project (only if you used graph trav
 -------------------------------------------------------------------------------------------
 * Array-based list vs. Linked List
 ***********************************
-In an array-based list, adding/removing a single element to/from the list is proportional to the number of elements that we must shift.  If the array must be grown, it will take time proportional to the number of elements in the list to do so.  Getting and setting values at a certain location in the list both take linear time.
-
-In a linked list, adding, removing, and finding a single element at a specific index all take linear time if the index at which the element is to be added or removed is either equal to 0 or one less than the number of items in the list.  However, if the index is not one of the two previously stated values, the running time of these operations is one plus the lesser of the two following values: the index OR (number of items - index).
+In an array-based list, adding/removing a single element to/from the list is proportional to the number of elements that we must shift.  If the array must be grown, it will take time proportional to the number of elements in the list to do so.  Getting and setting values at a certain location in the list both take linear time.  In a linked list, adding, removing, and finding a single element at a specific index all take linear time if the index at which the element is to be added or removed is either equal to 0 or one less than the number of items in the list.  However, if the index is not one of the two previously stated values, the running time of these operations is one plus the lesser of the two following values: the index OR (number of items - index).
 
 
 * Binary Search Tree vs. Hash Table
